@@ -115,7 +115,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Previous Article
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-teal-500 hover:text-teal-600 dark:hover:text-teal-400">
                           <Link href={`/${prev.path}`}>{prev.title}</Link>
                         </div>
                       </div>
@@ -125,7 +125,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Next Article
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-teal-500 hover:text-teal-600 dark:hover:text-teal-400">
                           <Link href={`/${next.path}`}>{next.title}</Link>
                         </div>
                       </div>
